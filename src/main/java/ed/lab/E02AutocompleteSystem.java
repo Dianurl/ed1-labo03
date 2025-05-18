@@ -24,6 +24,7 @@ public class E02AutocompleteSystem {
         current = root;
     }
 
+
     public void add(String words) {
         TrieNode current = root;
 

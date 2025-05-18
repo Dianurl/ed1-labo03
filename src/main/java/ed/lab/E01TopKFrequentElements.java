@@ -22,7 +22,6 @@ public class E01TopKFrequentElements {
             for(int i = k-1; i >= 0; i--) {
                 result[i] = heap.poll();
             }
-
             return result;
     }
 }
